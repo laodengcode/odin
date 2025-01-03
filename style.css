@@ -1,6 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
+    box-sizing: border-box;
+    padding: 8px 24px;
 }
 
 h1 {
@@ -36,4 +38,10 @@ h2 {
 .steps {
     font-size: medium;
     color: pink;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
